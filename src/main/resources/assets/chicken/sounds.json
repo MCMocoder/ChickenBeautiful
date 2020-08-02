@@ -1,0 +1,9 @@
+{
+  "jntmsong": {
+    "category": "MusicDiskJntm",
+    "subtitle": "play",
+    "sounds": [
+      "chicken:jntmsong"
+    ]
+  }
+}

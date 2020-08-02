@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.mocoder.CxkChicken.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ChickenMixin",
+    "ChickenRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
