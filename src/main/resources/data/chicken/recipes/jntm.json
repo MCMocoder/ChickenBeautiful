@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "chicken:jntm",
+    "count": 1
+  }
+}

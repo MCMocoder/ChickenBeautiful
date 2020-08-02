@@ -22,6 +22,8 @@ public class CxkChickenMain implements ModInitializer {
 
 	public static final SoundEvent jntm = new SoundEvent(new Identifier("chicken:jntmsong"));
 
+	public static final SoundEvent BasketballFly = new SoundEvent(new Identifier("chicken:basketballfly"));
+
 	public static final BasketballItem BasketballItemInstance = new BasketballItem(
 			new Item.Settings().group(ItemGroup.MISC).maxCount(16));
 
@@ -47,6 +49,7 @@ public class CxkChickenMain implements ModInitializer {
 			return new FlyingItemEntityRenderer(dispatcher,context.getItemRenderer());
 		});*/
 		Registry.register(Registry.SOUND_EVENT,new Identifier("chicken","jntmsong"),jntm);
+		Registry.register(Registry.SOUND_EVENT,new Identifier("chicken","basketballfly"),BasketballFly);
 		Registry.register(Registry.ITEM, new Identifier("chicken", "basketball_item"),BasketballItemInstance);
 		Registry.register(Registry.ITEM,new Identifier("chicken","jntm"),MUSIC_DISC_ITEM);
 	}

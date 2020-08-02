@@ -1,9 +1,16 @@
 {
   "jntmsong": {
     "category": "MusicDiskJntm",
-    "subtitle": "play",
+    "subtitle": "chicken.jntmplay",
     "sounds": [
       "chicken:jntmsong"
+    ]
+  },
+  "basketballfly": {
+    "category": "Basketball",
+    "subtitle": "chicken.basketballfly",
+    "sounds": [
+      "chicken:bsktbf"
     ]
   }
 }
